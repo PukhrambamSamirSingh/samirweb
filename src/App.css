@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app_background {
+    background: rgb(165, 204, 215);
+    background: linear-gradient(127deg, rgba(165, 204, 215, 1) 0%, rgba(221, 189, 129, 1) 49%, rgba(192, 212, 245, 1) 100%);
+}
+
+.gradient_text {
+    background-image: linear-gradient(to right, #ffd500, #ff009d);
+    -webkit-background-clip: text;
+    /* For older browsers */
+    background-clip: text;
+    color: transparent;
+    /* Make the text color transparent */
+}
+
+.gradient_text_intro {
+    background-image: linear-gradient(to right, #6e8eef, #c313d6, #d61313);
+    -webkit-background-clip: text;
+    /* For older browsers */
+    background-clip: text;
+    color: transparent;
+    /* Make the text color transparent */
+}
