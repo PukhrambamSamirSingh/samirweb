@@ -52,7 +52,12 @@ const Projects = () => {
                                 <h1>Test user (Check by using this email/username and password)</h1>
                                 <div className="flex flex-row xs:flex-col md:flex-row gap-2">
                                     <h1>Email/Username:</h1>
-                                    <span>{project?.email}</span>
+                                    {project.email && (
+                                        <span>{project?.email}</span>
+                                    )}
+                                    {project.name && (
+                                        <span>{project?.name}</span>
+                                    )}
                                 </div>
                                 <div className="flex gap-2">
                                     <h1>Password:</h1>
