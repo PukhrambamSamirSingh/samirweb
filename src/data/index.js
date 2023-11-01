@@ -80,6 +80,6 @@ export const blogs = [
     {
         id: 2,
         title: "What's Next?",
-        desc: "I am updating my e-commerce(Cartique) website, and upon completing this update, I plan to work on updating the Learnopia website. For the e-commerce site, my primary objectives include implementing authentication, improving error handling, and enhancing the user interface (UI) for the product addition page."
+        desc: "Currently, I'm learning TypeScript, and once I've completed my TypeScript learning journey, I plan to start building projects with it. After gaining some experience with TypeScript, my next step is to learn Socket.IO. This sequential approach will help me become proficient in TypeScript before diving into Socket.IO, making my learning process more effective and enjoyable."
     }
 ]
