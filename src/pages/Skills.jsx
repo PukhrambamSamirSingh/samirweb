@@ -4,6 +4,10 @@ import { IoLogoJavascript } from "react-icons/io"
 import { TbBrandNextjs } from "react-icons/tb"
 import { SiTailwindcss, SiRedux, SiExpress, SiPostman } from "react-icons/si"
 import { BiLogoGit, BiLogoMongodb } from "react-icons/bi"
+import { SiTypescript } from "react-icons/si";
+import { FaGithub } from "react-icons/fa6";
+import { SiGitpod } from "react-icons/si";
+import { GoCodespaces } from "react-icons/go";
 
 const Skills = () => {
 
@@ -38,9 +42,9 @@ const Skills = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
-                            <FaCss3 className="text-3xl" />
+                            <SiTypescript className="text-3xl" />
                         </div>
-                        <span className="text-sm sm:text-md">CSS</span>
+                        <span className="text-sm sm:text-md">TypeScript</span>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
@@ -71,6 +75,24 @@ const Skills = () => {
                             <BiLogoGit className="text-3xl" />
                         </div>
                         <span className="text-sm sm:text-md">Git</span>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
+                            <FaGithub className="text-3xl" />
+                        </div>
+                        <span className="text-sm sm:text-md">Github</span>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
+                            <SiGitpod className="text-3xl" />
+                        </div>
+                        <span className="text-sm sm:text-md">Gitpod</span>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
+                            <GoCodespaces className="text-3xl" />
+                        </div>
+                        <span className="text-sm sm:text-md">Github Codespaces</span>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
