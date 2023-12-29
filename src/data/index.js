@@ -78,8 +78,13 @@ export const abouts = [
 
 export const blogs = [
     {
+        id: 1,
+        title: "Currently learning",
+        desc: "Currently, I'm immersed in learning AWS and delving deeply into cloud computing. Along this journey, I'm also exploring various cloud tools to build projects remotely, leveraging platforms such as Gitpod and GitHub Codespaces. The ability to apply cloud concepts practically and create real-world projects has been facilitated by the extensive resources provided by the freeCodeCamp.org YouTube channel, where a 107-hour tutorial has proven invaluable."
+    },
+    {
         id: 2,
         title: "What's Next?",
-        desc: "Currently, I'm learning TypeScript, and once I've completed my TypeScript learning journey, I plan to start building projects with it. After gaining some experience with TypeScript, my next step is to learn Socket.IO. This sequential approach will help me become proficient in TypeScript before diving into Socket.IO, making my learning process more effective and enjoyable."
+        desc: "I'm dedicated to this learning journey, recognizing the importance of continuous learning and practical experience in the dynamic field of cloud computing. I look forward to creating and contributing to more projects in the cloud in the future."
     }
 ]
