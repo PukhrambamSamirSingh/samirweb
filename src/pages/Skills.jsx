@@ -2,10 +2,10 @@ import { DiHtml5 } from "react-icons/di"
 import { FaCss3, FaNodeJs, FaReact } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
 import { TbBrandNextjs } from "react-icons/tb"
-import { SiTailwindcss, SiRedux, SiExpress, SiPostman } from "react-icons/si"
+import { SiTailwindcss, SiRedux, SiExpress, SiGnubash } from "react-icons/si"
 import { BiLogoGit, BiLogoMongodb } from "react-icons/bi"
 import { SiTypescript } from "react-icons/si";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaDocker, FaAws } from "react-icons/fa6";
 import { SiGitpod } from "react-icons/si";
 import { GoCodespaces } from "react-icons/go";
 
@@ -92,7 +92,7 @@ const Skills = () => {
                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
                             <GoCodespaces className="text-3xl" />
                         </div>
-                        <span className="text-sm sm:text-md">Github Codespaces</span>
+                        <span className="text-sm sm:text-md">Codespaces</span>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
@@ -108,14 +108,26 @@ const Skills = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
-                            <SiPostman className="text-3xl" />
+                            <FaDocker className="text-3xl" />
                         </div>
-                        <span className="text-sm sm:text-md">Postman</span>
+                        <span className="text-sm sm:text-md">Docker</span>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
+                            <FaAws className="text-3xl" />
+                        </div>
+                        <span className="text-sm sm:text-md">AWS</span>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
+                            <SiGnubash className="text-3xl" />
+                        </div>
+                        <span className="text-sm sm:text-md">Bash</span>
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col gap-2">
                     <h1 className="text-xl">Experience:</h1>
-                    <span className="p-2 text-md sm:text-lg">{"I'm"} Pukhrambam Samir Singh, a self-taught web developer with over 2 years of experience in designing and developing MERN-STACK and responsive websites.</span>
+                    <span className="p-2 text-md sm:text-lg">{"I'm"} Pukhrambam Samir Singh, a self-taught web developer with over 3 years of experience in designing and developing MERN-STACK and responsive websites.</span>
                 </div>
             </div>
         </div>

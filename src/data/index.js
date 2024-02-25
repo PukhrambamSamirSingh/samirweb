@@ -62,7 +62,7 @@ export const abouts = [
     {
         id: 1,
         title: "LET ME INTRODUCE MYSELF",
-        desc: "I am a self-taught full-stack web developer. I have built MERN stack projects with full authentication using JWT tokens and deployed them on the internet via render.com. I can create advanced-level frontend applications but have intermediate-level proficiency in backend development. I can also work with the Next.js framework, albeit at an intermediate level. I have a deep passion for learning new technologies, especially within the IT sector."
+        desc: "I am a self-taught full-stack web developer. I have built MERN stack projects with full authentication using JWT tokens and deployed them on the internet via render.com. These projects include a food web application, an ecommerce application, and others. Currently, I'm learning AWS Cloud and exploring its services along with various technical skills related to cloud computing."
     },
     {
         id: 2,
