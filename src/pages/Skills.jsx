@@ -1,7 +1,6 @@
 import { DiHtml5 } from "react-icons/di"
 import { FaCss3, FaNodeJs, FaReact } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io"
-import { TbBrandNextjs } from "react-icons/tb"
 import { SiTailwindcss, SiRedux, SiExpress, SiGnubash } from "react-icons/si"
 import { BiLogoGit, BiLogoMongodb } from "react-icons/bi"
 import { SiTypescript } from "react-icons/si";
@@ -57,12 +56,6 @@ const Skills = () => {
                             <SiRedux className="text-3xl" />
                         </div>
                         <span className="text-sm sm:text-md">Redux</span>
-                    </div>
-                    <div className="flex flex-col justify-center items-center gap-2">
-                        <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
-                            <TbBrandNextjs className="text-3xl" />
-                        </div>
-                        <span className="text-sm sm:text-md">NextJs</span>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
                         <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-xl dark:bg-gray-900 flex justify-center items-center hover:bg-orange-200 hover:text-white dark:hover:bg-gray-700 duration-200">
